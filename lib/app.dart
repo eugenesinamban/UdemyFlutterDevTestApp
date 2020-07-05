@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './screens/home_page.dart';
+import 'screens/home_screen.dart';
 
 class App extends StatelessWidget {
   @override
@@ -7,7 +7,11 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: "Udemy Test App",
       theme: ThemeData(),
-      home: HomePage(),
+      home: HomeScreen(),
     );
   }
+}
+
+ThemeData _themeData() {
+  return ThemeData();
 }
